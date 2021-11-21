@@ -6,9 +6,11 @@ qKey.addEventListener("click", () => {
     document.getElementById("tom").play();
     document.getElementById('qKey').style.boxShadow = "0px 0px"
     document.getElementById("qKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    document.getElementsByClassName("lights")[0].style.display = "block"
     setTimeout(function() {
-        document.getElementById('qKey').style.boxShadow = "1.5px 3.5px";
+        document.getElementById('qKey').style.boxShadow = " 0px 3.5px 3px";
         document.getElementById("qKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+        document.getElementsByClassName("lights")[0].style.display = "none"
 
       }, 200);
     
@@ -19,6 +21,14 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("tom").pause();
         document.getElementById("tom").currentTime = 0;
         document.getElementById("tom").play();
+        document.getElementById('qKey').style.boxShadow = "0px 0px"
+        document.getElementById("qKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        document.getElementsByClassName("lights")[0].style.display = "block"
+        setTimeout(function() {
+            document.getElementById('qKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("qKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+            document.getElementsByClassName("lights")[0].style.display = "none"
+          }, 200);
     }
 })
 
@@ -30,6 +40,15 @@ wKey.addEventListener("click", () => {
     document.getElementById("kick").pause();
     document.getElementById("kick").currentTime = 0;
     document.getElementById("kick").play();
+    document.getElementById('wKey').style.boxShadow = "0px 0px"
+    document.getElementById("wKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    document.getElementsByClassName("lights")[1].style.display = "block"
+    setTimeout(function() {
+        document.getElementById('wKey').style.boxShadow = " 0px 3.5px 3px";
+        document.getElementById("wKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+        document.getElementsByClassName("lights")[1].style.display = "none"
+      }, 200);
+    
 })
 
 document.addEventListener("keydown", (event) => {
@@ -37,6 +56,15 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("kick").pause();
         document.getElementById("kick").currentTime = 0;
         document.getElementById("kick").play();
+        document.getElementById('wKey').style.boxShadow = "0px 0px"
+        document.getElementById("wKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        document.getElementsByClassName("lights")[1].style.display = "block"
+        setTimeout(function() {
+            document.getElementById('wKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("wKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+            document.getElementsByClassName("lights")[1].style.display = "none"
+          }, 200);
+        
     }
 })
 
@@ -48,6 +76,15 @@ eKey.addEventListener("click", () => {
     document.getElementById("snare").pause();
     document.getElementById("snare").currentTime = 0;
     document.getElementById("snare").play();
+    document.getElementById('eKey').style.boxShadow = "0px 0px"
+    document.getElementById("eKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    document.getElementsByClassName("lights")[2].style.display = "block"
+    setTimeout(function() {
+        document.getElementById('eKey').style.boxShadow = " 0px 3.5px 3px";
+        document.getElementById("eKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+        document.getElementsByClassName("lights")[2].style.display = "none"
+      }, 200);
+    
 })
 
 document.addEventListener("keydown", (event) => {
@@ -55,6 +92,15 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("snare").pause();
         document.getElementById("snare").currentTime = 0;
         document.getElementById("snare").play();
+        document.getElementById('eKey').style.boxShadow = "0px 0px"
+        document.getElementById("eKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        document.getElementsByClassName("lights")[2].style.display = "block"
+        setTimeout(function() {
+            document.getElementById('eKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("eKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+            document.getElementsByClassName("lights")[2].style.display = "none"
+          }, 200);
+        
     }
 })
 
@@ -66,6 +112,14 @@ rKey.addEventListener("click", () => {
     document.getElementById("boom").pause();
     document.getElementById("boom").currentTime = 0;
     document.getElementById("boom").play();
+    document.getElementById('rKey').style.boxShadow = "0px 0px"
+    document.getElementById("rKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    setTimeout(function() {
+        document.getElementById('rKey').style.boxShadow = " 0px 3.5px 3px";
+        document.getElementById("rKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+
+      }, 200);
+    
 })
 
 document.addEventListener("keydown", (event) => {
@@ -73,6 +127,14 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("boom").pause();
         document.getElementById("boom").currentTime = 0;
         document.getElementById("boom").play();
+        document.getElementById('rKey').style.boxShadow = "0px 0px"
+        document.getElementById("rKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        setTimeout(function() {
+            document.getElementById('rKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("rKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+    
+          }, 200);
+        
     }
 })
 
@@ -84,6 +146,14 @@ tKey.addEventListener("click", () => {
     document.getElementById("clap").pause();
     document.getElementById("clap").currentTime = 0;
     document.getElementById("clap").play();
+    document.getElementById('tKey').style.boxShadow = "0px 0px"
+    document.getElementById("tKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    setTimeout(function() {
+        document.getElementById('tKey').style.boxShadow = " 0px 3.5px 3px";
+        document.getElementById("tKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+
+      }, 200);
+    
 })
 
 document.addEventListener("keydown", (event) => {
@@ -91,6 +161,14 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("clap").pause();
         document.getElementById("clap").currentTime = 0;
         document.getElementById("clap").play();
+        document.getElementById('tKey').style.boxShadow = "0px 0px"
+        document.getElementById("tKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        setTimeout(function() {
+            document.getElementById('tKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("tKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+    
+          }, 200);
+        
     }
 })
 
@@ -102,6 +180,14 @@ yKey.addEventListener("click", () => {
     document.getElementById("ride").pause();
     document.getElementById("ride").currentTime = 0;
     document.getElementById("ride").play();
+    document.getElementById('yKey').style.boxShadow = "0px 0px"
+    document.getElementById("yKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    setTimeout(function() {
+        document.getElementById('yKey').style.boxShadow = " 0px 3.5px 3px";
+        document.getElementById("yKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+
+      }, 200);
+    
 })
 
 document.addEventListener("keydown", (event) => {
@@ -109,6 +195,14 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("ride").pause();
         document.getElementById("ride").currentTime = 0;
         document.getElementById("ride").play();
+        document.getElementById('yKey').style.boxShadow = "0px 0px"
+        document.getElementById("yKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        setTimeout(function() {
+            document.getElementById('yKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("yKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+    
+          }, 200);
+        
     }
 })
 
@@ -120,6 +214,14 @@ uKey.addEventListener("click", () => {
     document.getElementById("tink").pause();
     document.getElementById("tink").currentTime = 0;
     document.getElementById("tink").play();
+    document.getElementById('uKey').style.boxShadow = "0px 0px"
+    document.getElementById("uKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    setTimeout(function() {
+        document.getElementById('uKey').style.boxShadow = " 0px 3.5px 3px";
+        document.getElementById("uKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+
+      }, 200);
+    
 })
 
 document.addEventListener("keydown", (event) => {
@@ -127,6 +229,14 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("tink").pause();
         document.getElementById("tink").currentTime = 0;
         document.getElementById("tink").play();
+        document.getElementById('uKey').style.boxShadow = "0px 0px"
+        document.getElementById("uKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        setTimeout(function() {
+            document.getElementById('uKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("uKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+    
+          }, 200);
+        
     }
 })
 
@@ -138,6 +248,14 @@ iKey.addEventListener("click", () => {
     document.getElementById("hihat").pause();
     document.getElementById("hihat").currentTime = 0;
     document.getElementById("hihat").play();
+    document.getElementById('iKey').style.boxShadow = "0px 0px"
+    document.getElementById("iKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    setTimeout(function() {
+        document.getElementById('iKey').style.boxShadow = " 0px 3.5px 3px";
+        document.getElementById("iKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+
+      }, 200);
+    
 })
 
 document.addEventListener("keydown", (event) => {
@@ -145,6 +263,14 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("hihat").pause();
         document.getElementById("hihat").currentTime = 0;
         document.getElementById("hihat").play();
+        document.getElementById('iKey').style.boxShadow = "0px 0px"
+        document.getElementById("iKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        setTimeout(function() {
+            document.getElementById('iKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("iKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+    
+          }, 200);
+        
     }
 })
 
@@ -156,6 +282,14 @@ oKey.addEventListener("click", () => {
     document.getElementById("openhat").pause();
     document.getElementById("openhat").currentTime = 0;
     document.getElementById("openhat").play();
+    document.getElementById('oKey').style.boxShadow = "0px 0px"
+    document.getElementById("oKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+    setTimeout(function() {
+        document.getElementById('oKey').style.boxShadow = " 0px 3.5px 3px";
+        document.getElementById("oKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+
+      }, 200);
+    
 })
 
 document.addEventListener("keydown", (event) => {
@@ -163,6 +297,14 @@ document.addEventListener("keydown", (event) => {
         document.getElementById("openhat").pause();
         document.getElementById("openhat").currentTime = 0;
         document.getElementById("openhat").play();
+        document.getElementById('oKey').style.boxShadow = "0px 0px"
+        document.getElementById("oKey").style.background = "linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(145, 145, 145, 1) 100%)";
+        setTimeout(function() {
+            document.getElementById('oKey').style.boxShadow = " 0px 3.5px 3px";
+            document.getElementById("oKey").style.background = "linear-gradient(0deg, rgba(89, 91, 91, 1) 0%, rgba(153, 151, 148, 1) 100%)";
+    
+          }, 200);
+        
     }
 })
 
